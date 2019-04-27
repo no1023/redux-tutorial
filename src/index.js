@@ -30,7 +30,7 @@ const action = {
 
 store.subscribe(() => console.log('subscribe : ' , store.getState()));
 
-store.dispatch(updateUser);
+// store.dispatch(updateUser);
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 
